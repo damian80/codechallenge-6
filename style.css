@@ -1,0 +1,56 @@
+
+body {
+    background-color: lightblue;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+ul.labels {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    line-height: 13px;
+}
+ul.labels li {
+    display:inline;
+    color:#cccccc;
+    float: left;
+    margin:0px 2px 2px 0px;
+    height: 13px;
+}
+ul.labels li span {
+    background-color: darkred;
+    font-size: 15px;
+    font-weight: normal;
+    white-space: nowrap;
+    padding: 0 38.5px;
+    color:white;
+    vertical-align: top;
+    float: left;
+    border:solid 3px white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+ul.label li a {
+    padding: 1px 4px 0 px 11px;
+    background-color: lightblue;
+}
+span.blue{
+    background-color: #f1a9e7;
+   
+}
+h1 {
+    text-align: center;
+}
+footer {
+    position:absolute;
+    bottom:-160%;
+    width: 100%;
+    text-align:center;
+}
+ul.labels li span.blue:hover {
+    background-color:blue;
+}
+ul.labels li span.lightblue:hover {
+    background-color: lightblue;
+}
